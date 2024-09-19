@@ -39,7 +39,7 @@ console.log(valor)
 let texto= "Fiap";
 console.log(texto)
 
-// BOOLEANOS Verdadeiro ou Falso
+// BOOLEANOS VERDADEIRO OU FALSO
 
 let aluno= true
 console.log(aluno)
@@ -49,3 +49,25 @@ console.log(aluno)
 let tecnologias = ["JAVA", "C", "HTML","CSS"]
 console.log(tecnologias)
 
+
+// CONVERSÕES
+// converta de float para inteiro
+
+let numeroFloat =123.456;
+console.log(parseInt(numeroFloat));
+
+// converta de string para float
+let numeroString ="654.321"
+console.log(parseFloat(numeroString));
+
+// converta de numero inteiro para string
+let numeroInteiro = 789
+console.log(numeroInteiro.toString());
+
+// VALOR BOOLEANO
+let alunoAula = true
+
+// VER O TIPO DA VARIAVEL
+
+let verTipo = typeof numeroInteiro
+console.log(verTipo)
